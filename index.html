@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Systech Fusion — Modern IT Services, Cloud & Cybersecurity</title>
+  <meta name="description" content="Systech Fusion is a premier IT consultancy delivering managed services, cloud, cybersecurity, virtualization, and infrastructure solutions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Systech Fusion home">
+      <span class="brand-mark">SF</span>
+      <span>Systech Fusion</span>
+    </a>
+    <nav class="site-nav" data-nav aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-primary nav-cta" href="contact.html#quote-form">Book a call <i data-lucide="arrow-up-right"></i></a>
+    </nav>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false">
+      <i data-lucide="menu"></i>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Managed IT • Cloud • Cybersecurity</p>
+          <h1>Engineering <span class="gradient-text">resilient IT</span> for businesses that can&rsquo;t slow down.</h1>
+          <p class="lede">A premier IT consultancy delivering expert managed services, cloud solutions, network engineering, data center optimization, and cybersecurity — built around your business goals.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html"><i data-lucide="calendar-check"></i> Book a consultation</a>
+            <a class="btn btn-ghost" href="services.html"><i data-lucide="layers"></i> Explore services</a>
+          </div>
+          <div class="hero-meta">
+            <span><i data-lucide="check-circle-2"></i> 24/7 monitoring</span>
+            <span><i data-lucide="check-circle-2"></i> Certified engineers</span>
+            <span><i data-lucide="check-circle-2"></i> Same-day delivery</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="glow-orb orb-1"></div>
+          <div class="glow-orb orb-2"></div>
+
+          <div class="glass-card gc-1">
+            <img src="assets/images/network-ops.jpg" alt="Network operations center" loading="lazy" />
+          </div>
+
+          <div class="glass-card gc-2" aria-hidden="true">
+            <div class="row"><span class="dot"></span><strong>Endpoint Protection</strong><span>Healthy</span></div>
+            <div class="row"><span class="dot" style="background:var(--accent);box-shadow:0 0 10px var(--accent)"></span><strong>Cloud Backup</strong><span>Synced</span></div>
+            <div class="row"><span class="dot" style="background:var(--gold);box-shadow:0 0 10px var(--gold)"></span><strong>Patch Cycle</strong><span>98%</span></div>
+            <div class="row"><span class="dot"></span><strong>Network Uptime</strong><span>99.99%</span></div>
+          </div>
+
+          <div class="glass-card gc-3" aria-hidden="true">
+            <div class="stat-num">+42%</div>
+            <div class="stat-label">Faster incident resolution</div>
+            <div class="bars">
+              <i style="height:30%"></i><i style="height:55%"></i><i style="height:42%"></i>
+              <i style="height:78%"></i><i style="height:65%"></i><i style="height:90%"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS MARQUEE -->
+    <section class="marquee" aria-label="Trusted technology partners">
+      <div class="marquee-track">
+        <span>Microsoft</span><svg data-lucide="dot"></svg>
+        <span>Cisco</span><svg data-lucide="dot"></svg>
+        <span>VMware</span><svg data-lucide="dot"></svg>
+        <span>AWS</span><svg data-lucide="dot"></svg>
+        <span>Azure</span><svg data-lucide="dot"></svg>
+        <span>Fortinet</span><svg data-lucide="dot"></svg>
+        <span>Dell Technologies</span><svg data-lucide="dot"></svg>
+        <span>HPE</span><svg data-lucide="dot"></svg>
+        <span>Veeam</span><svg data-lucide="dot"></svg>
+        <span>Palo Alto</span><svg data-lucide="dot"></svg>
+        <!-- duplicate for seamless loop -->
+        <span>Microsoft</span><svg data-lucide="dot"></svg>
+        <span>Cisco</span><svg data-lucide="dot"></svg>
+        <span>VMware</span><svg data-lucide="dot"></svg>
+        <span>AWS</span><svg data-lucide="dot"></svg>
+        <span>Azure</span><svg data-lucide="dot"></svg>
+        <span>Fortinet</span><svg data-lucide="dot"></svg>
+        <span>Dell Technologies</span><svg data-lucide="dot"></svg>
+        <span>HPE</span><svg data-lucide="dot"></svg>
+        <span>Veeam</span><svg data-lucide="dot"></svg>
+        <span>Palo Alto</span><svg data-lucide="dot"></svg>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section">
+      <div class="container">
+        <div class="stats" data-reveal>
+          <div class="stat">
+            <div class="stat-value"><span data-counter="99.99" data-suffix="%">0</span></div>
+            <div class="stat-label">Average network uptime</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value"><span data-counter="24" data-suffix="/7">0</span></div>
+            <div class="stat-label">Monitoring &amp; response</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value"><span data-counter="200" data-suffix="+">0</span></div>
+            <div class="stat-label">Endpoints managed</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value"><span data-counter="15" data-suffix="+">0</span></div>
+            <div class="stat-label">Vendor partnerships</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENTO SERVICES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Our services</p>
+          <h2>One partner for every layer of your <span class="gradient-text">IT stack</span>.</h2>
+          <p class="lede">From endpoint to data center, we design, deploy, and manage secure, resilient systems that scale with your business.</p>
+        </div>
+
+        <div class="bento">
+          <article class="bento-card bc-feature bc-wide" data-reveal>
+            <div class="icon"><i data-lucide="server-cog"></i></div>
+            <div>
+              <h3>Managed IT Services</h3>
+              <p>Continuous monitoring, management, and optimization by certified experts — so your team focuses on the business, not the tickets.</p>
+            </div>
+            <a class="btn-link" href="services.html">Learn more <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="bento-card bc-tall bc-image" data-reveal>
+            <img src="assets/images/cybersecurity.jpg" alt="Cybersecurity operations" loading="lazy" />
+            <div class="overlay">
+              <h3>Cybersecurity Solutions</h3>
+              <p>Comprehensive protection across identity, endpoints, email, and network.</p>
+            </div>
+          </article>
+
+          <article class="bento-card bc-md" data-reveal>
+            <div class="icon"><i data-lucide="cloud"></i></div>
+            <h3>Cloud Services</h3>
+            <p>Harness the full potential of public, private, and hybrid cloud — with migration, governance, and FinOps.</p>
+          </article>
+
+          <article class="bento-card bc-md" data-reveal>
+            <div class="icon"><i data-lucide="network"></i></div>
+            <h3>IT Infrastructure</h3>
+            <p>Design, deploy, and manage secure and resilient infrastructures across compute, storage, and network.</p>
+          </article>
+
+          <article class="bento-card bc-sm" data-reveal>
+            <div class="icon"><i data-lucide="boxes"></i></div>
+            <h3>Virtualization &amp; SD Infra</h3>
+            <p>Modernize with virtualization and software-defined technologies.</p>
+          </article>
+
+          <article class="bento-card bc-sm" data-reveal>
+            <div class="icon"><i data-lucide="route"></i></div>
+            <h3>IT Consulting</h3>
+            <p>Strategic advisory and project delivery across every IT initiative.</p>
+          </article>
+
+          <article class="bento-card bc-sm" data-reveal>
+            <div class="icon"><i data-lucide="database-backup"></i></div>
+            <h3>Backup &amp; Recovery</h3>
+            <p>Tested resilience with cloud-native backup and recovery.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPLIT WHY US -->
+    <section class="section">
+      <div class="container split">
+        <div class="split-img" data-reveal>
+          <img src="assets/images/engineer-workspace.jpg" alt="Engineer working in a modern workspace" loading="lazy" />
+        </div>
+        <div data-reveal>
+          <p class="eyebrow">Why choose us</p>
+          <h2>Your strategic <span class="gradient-text">technology partner</span> — not just a vendor.</h2>
+          <p class="lede">We don&rsquo;t just offer IT services — we help you solve real-world problems with real-time solutions, certified expertise, and preferred vendor pricing.</p>
+          <ul class="checks">
+            <li><i data-lucide="check"></i> Same-day delivery across core regions</li>
+            <li><i data-lucide="check"></i> Certified engineers across major vendors</li>
+            <li><i data-lucide="check"></i> End-to-end solution consultancy</li>
+            <li><i data-lucide="check"></i> Strong vendor relationships &amp; preferred pricing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">How we work</p>
+          <h2>A clear path from <span class="gradient-text">discovery</span> to dependable operations.</h2>
+        </div>
+        <div class="process">
+          <article class="step" data-reveal>
+            <div class="num">01</div>
+            <h3>Discover</h3>
+            <p>We map your users, devices, applications, and risks — and understand the outcomes that matter to your business.</p>
+          </article>
+          <article class="step" data-reveal>
+            <div class="num">02</div>
+            <h3>Design &amp; Stabilize</h3>
+            <p>Resolve urgent gaps, document key systems, and put monitoring, backup, and access controls in place.</p>
+          </article>
+          <article class="step" data-reveal>
+            <div class="num">03</div>
+            <h3>Operate &amp; Improve</h3>
+            <p>Run a managed service cadence with reporting, planning, and continuous security improvements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Client outcomes</p>
+          <h2>Trusted by teams that <span class="gradient-text">can&rsquo;t afford downtime</span>.</h2>
+        </div>
+        <div class="testimonials">
+          <article class="quote" data-reveal>
+            <div class="stars">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+            <p>&ldquo;Systech Fusion took our scattered IT and turned it into a calm, well-documented operation. Tickets are down, uptime is up.&rdquo;</p>
+            <div class="who">
+              <div class="avatar">AK</div>
+              <div><strong>Aoife K.</strong><span>Operations Director, Logistics</span></div>
+            </div>
+          </article>
+          <article class="quote" data-reveal>
+            <div class="stars">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+            <p>&ldquo;Their cloud migration plan was practical and on-budget. The cutover was the smoothest IT project we&rsquo;ve done.&rdquo;</p>
+            <div class="who">
+              <div class="avatar">RM</div>
+              <div><strong>Rohan M.</strong><span>CTO, Fintech Startup</span></div>
+            </div>
+          </article>
+          <article class="quote" data-reveal>
+            <div class="stars">
+              <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+            </div>
+            <p>&ldquo;A real partner. Strong vendor relationships meant better pricing, and the security improvements were measurable.&rdquo;</p>
+            <div class="who">
+              <div class="avatar">SC</div>
+              <div><strong>Sinead C.</strong><span>Head of IT, Healthcare</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <div>
+            <p class="eyebrow">Transform your business</p>
+            <h2>Book our experts today.</h2>
+            <p class="lede" style="margin-top:10px">Share your business goal or pain — we&rsquo;ll help you address it in the most efficient manner.</p>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn btn-light" href="contact.html"><i data-lucide="send"></i> Schedule a quick call</a>
+            <a class="btn btn-ghost" href="mailto:admin@systechfusion.com"><i data-lucide="mail"></i> Request an estimate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">SF</span><span>Systech Fusion</span></a>
+          <p>Leading IT consultancy offering expert managed services, IT support, and network consulting — specializing in cloud solutions, data center optimization, and IT security.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a href="#" aria-label="X"><i data-lucide="twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Network</a></li>
+            <li><a href="services.html">Compute</a></li>
+            <li><a href="services.html">Storage</a></li>
+            <li><a href="services.html">Cloud</a></li>
+            <li><a href="services.html">Cybersecurity</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact">
+            <a href="#"><i data-lucide="phone"></i> +353 85 1947 857</a>
+            <a href="#"><i data-lucide="map-pin"></i> 193 Bru Na Sionna, Clare, Ireland</a>
+            <a href="mailto:admin@systechfusion.com"><i data-lucide="mail"></i> admin@systechfusion.com</a>
+            <span><i data-lucide="clock"></i> Monday – Friday: 8:00 a.m. – 5:00 p.m.</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Systech Fusion. All rights reserved.</span>
+        <span>Built with care in Ireland.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
